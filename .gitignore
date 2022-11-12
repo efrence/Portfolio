@@ -1,0 +1,9 @@
+node_modules/
+
+# ignore temporal git files
+
+*.swp
+*.swo
+
+# ignore .DS_Store
+*.DS_Store
