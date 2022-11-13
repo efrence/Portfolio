@@ -16,9 +16,9 @@ import ProjectThumbnail from './.vitepress/components/ProjectThumbnail.vue';
       <div class="col-2"></div>
       <div class="col-6 overflow-hidden">
         <h3 text-center> Projects </h3>
-        <project-thumbnail img="./ipa.png" title="IPA Translator" description="The first modern, really interactive phonetic transcriber in the world"/>
-        <project-thumbnail img="./eureka.png" title="Eureka" description="Healthcare Platform for building online medical research studies"/>
-        <project-thumbnail img="./aha.png" title="Aha!" description="Design System built from scratch for Eureka platform" />
+        <project-thumbnail path="/ipa" img="./ipa.png" title="IPA Translator" description="The first modern, really interactive phonetic transcriber in the world"/>
+        <project-thumbnail path="/eureka" img="./eureka.png" title="Eureka" description="Healthcare Platform for building online medical research studies"/>
+        <project-thumbnail path="/aha" img="./aha.png" title="Aha!" description="Design System built from scratch for Eureka platform" />
       </div>
     </div>
   </div>
@@ -34,9 +34,9 @@ import ProjectThumbnail from './.vitepress/components/ProjectThumbnail.vue';
       </div>
       <div class="col-12 overflow-hidden">
         <h3 text-center> Projects </h3>
-        <project-thumbnail img="./ipa.png" title="IPA Translator" description="The first modern, really interactive phonetic transcriber in the world"/>
-        <project-thumbnail img="./eureka.png" title="Eureka" description="Healthcare Platform for building online medical research studies"/>
-        <project-thumbnail img="./aha.png" title="Aha!" description="Design System built from scratch for Eureka platform" />
+        <project-thumbnail path="ipa" img="./ipa.png" title="IPA Translator" description="The first modern, really interactive phonetic transcriber in the world"/>
+        <project-thumbnail path="eureka" img="./eureka.png" title="Eureka" description="Healthcare Platform for building online medical research studies"/>
+        <project-thumbnail path="aha" img="./aha.png" title="Aha!" description="Design System built from scratch for Eureka platform" />
       </div>
     </div>
   </div>
