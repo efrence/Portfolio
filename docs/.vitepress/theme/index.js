@@ -1,6 +1,7 @@
 import Layout from './Layout.vue'
 import { Quasar } from 'quasar';
-import quasarIconSet from 'quasar/icon-set/svg-mdi-v6';
+// import quasarIconSet from 'quasar/icon-set/svg-mdi-v6';
+import { isClientSide } from '../utils/ssg';
 
 // Import icon libraries
 import '@quasar/extras/material-icons/material-icons.css';
@@ -25,9 +26,11 @@ import 'uno.css';
 export default {
   Layout,
   enhanceApp({ app }) {
-    app.use(Quasar, {
-      iconSet: quasarIconSet,
-      config: {}
-    })
+		if(isClientSide()){
+			app.use(Quasar, {
+	//			iconSet: quasarIconSet,
+				config: {}
+			})
+		}
   }
 }
