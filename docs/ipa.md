@@ -47,19 +47,28 @@
           <q-carousel-slide name="second" img-src="./android.png">
             <div class="absolute-bottom dark-custom-caption">
               <div class="hide md:block text-h2 text-white">Multiplatform App</div>
-              <h4 class="hide md:block text-white">Google Play Store</h4>
               <h5 class="hide md:block text-white">
                 The app has been distributed as a Mobile (Google play and Apple stores), Desktop (Microsoft and Apple store), Chrome extension and Web (accesible directly via any browser).
               </h5>
-              <q-btn unelevated color="secondary" class="mb-4" label="Go to store" href="https://play.google.com/store/apps/details?id=com.unalengua.ipattstranslator" target="_blank"/>
+              <q-btn unelevated color="secondary" class="mb-4 ml-2" label="Google Play Store" href="https://play.google.com/store/apps/details?id=com.unalengua.ipattstranslator" target="_blank"/>
+              <q-btn unelevated color="primary" class="mb-4 ml-2" label="Chrome Extension" href="https://chrome.google.com/webstore/detail/unalengua-ipa-translator/cgdbpnmhhkgaaahpmgmmibiifdegidbl" target="_blank"/>
+              <q-btn unelevated color="secondary" class="mb-4 ml-2" label="Apple Store" href="https://apps.apple.com/US/app/id1553100032" target="_blank"/>
             </div>
           </q-carousel-slide>
-          <q-carousel-slide name="reviews" img-src="./android2.png">
+          <q-carousel-slide name="reviews" img-src="./analytics.png">
             <div class="absolute-bottom dark-custom-caption">
-              <div class="hide md:block text-h2 text-white">Well Received</div>
-              <h4 class="hide md:block text-white">Google Play Store Reviews</h4>
+              <div class="hide md:block text-h2 text-white">Google Analytics</div>
+              <h4 class="hide md:block text-white">15k visitors last month</h4>
               <h5 class="hide md:block text-white">
-                Above average scores
+                The app is well received in the stores and also it is used by people from all over the world.
+              </h5>
+            </div>
+          </q-carousel-slide>
+          <q-carousel-slide name="contribution" img-src="./android2.png">
+            <div class="absolute-bottom dark-custom-caption">
+              <div class="hide md:block text-h2 text-white">My Contribution</div>
+              <h5 class="hide md:block text-white">
+               I was involved in all aspects of the app, including: design, coding, infrastructure, marketing, project management, etc. Except for coding in which I wrote the code together with my younger brother, I can proudly say it was all my work.
               </h5>
             </div>
           </q-carousel-slide>
@@ -68,19 +77,6 @@
     </div>
   </div>
 </div>
-
-Links
------
-
-- [Web Client][1]
-- [Google Play Store][2]
-- [Apple Store][3]
-- [Chrome Extension][4]
-
-[4]: https://chrome.google.com/webstore/detail/unalengua-ipa-translator/cgdbpnmhhkgaaahpmgmmibiifdegidbl
-[3]: https://apps.apple.com/US/app/id1553100032
-[2]: https://play.google.com/store/apps/details?id=com.unalengua.ipattstranslator
-[1]: https://unalengua.com/ipa?ttsLocale=en-US&voiceId=Salli&ttsMode=sentence&text=Welcome+to+Unalengua+IPA+Translator
 
 <style>
   .custom-caption {
