@@ -73,6 +73,43 @@
             </div>
           </q-carousel-slide>
         </q-carousel>
+        <div class="md:hide p-4" v-if="slide==='first'">
+          <div class="text-h2 text-center mt-4">Multiple Source Languages</div>
+          <h4 class="">Web Client, Light Mode, displaying 10 possible input languages</h4>
+          <h5 class="">
+            Unalengua IPA Translator is the first modern phonetic (IPA) transcriber with prolonged reading features (minimalistic UI, dark mode) and read aloud capabilities (Text-to-Speech, speech tracking).
+          </h5>
+          <q-btn unelevated color="secondary" class="mb-4" label="Live demo" href="https://unalengua.com/ipa?ttsLocale=en-US&voiceId=Salli&ttsMode=sentence&text=Welcome+to+Unalengua+IPA+Translator" target="_blank"/>
+        </div>
+        <div class="md:hide p-4" v-if="slide==='third'">
+          <div class="text-h2 text-center mt-4">Uses Text-To-Speech Technology</div>
+          <h4 class="">Web Client, Dark Mode, displaying 5 possible text-to-speech speeds</h4>
+          <h5 class="">
+            The app uses AWS Polly Text-To-Speech technology to provide end users with dozens of different voices available to the 10 languagues supported.
+          </h5>
+        </div>
+        <div class="md:hide p-4" v-if="slide==='second'">
+          <div class=" text-h2 text-center mt-4">Multiplatform App</div>
+          <h5 class=" ">
+            The app has been distributed as a Mobile (Google play and Apple stores), Desktop (Microsoft and Apple store), Chrome extension and Web (accesible directly via any browser).
+          </h5>
+          <q-btn unelevated color="secondary" class="mb-4 ml-2" label="Google Play Store" href="https://play.google.com/store/apps/details?id=com.unalengua.ipattstranslator" target="_blank"/>
+          <q-btn unelevated color="primary" class="mb-4 ml-2" label="Chrome Extension" href="https://chrome.google.com/webstore/detail/unalengua-ipa-translator/cgdbpnmhhkgaaahpmgmmibiifdegidbl" target="_blank"/>
+          <q-btn unelevated color="secondary" class="mb-4 ml-2" label="Apple Store" href="https://apps.apple.com/US/app/id1553100032" target="_blank"/>
+        </div>
+        <div class="md:hide p-4" v-if="slide==='reviews'">
+          <div class=" text-h2 text-center mt-4">Google Analytics</div>
+          <h4 class="text-center">15k visitors last month</h4>
+          <h5 class=" ">
+            The app is well received in the stores and also it is used by people from all over the world.
+          </h5>
+        </div>
+        <div class="md:hide p-4" v-if="slide==='contribution'">
+          <div class="text-h2 text-center mt-4">My Contribution</div>
+          <h5 class=" ">
+           I was involved in all aspects of the app, including: design, coding, infrastructure, marketing, project management, etc. Except for coding in which I wrote the code together with my younger brother, I can proudly say it was all my work.
+          </h5>
+        </div>
       </q-responsive>
     </div>
   </div>
