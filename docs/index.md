@@ -42,3 +42,9 @@ import { withBase } from 'vitepress'
     </div>
   </div>
 </q-responsive>
+
+<style>
+ i.q-icon {
+   font-size: 2rem;
+ }
+</style>
