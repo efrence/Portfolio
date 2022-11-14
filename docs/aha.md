@@ -31,6 +31,7 @@
               <h5 class="hide md:block text-white">
                 As part of my role as Senior Engineer in Eureka I proposed to build a Design System with the intention of coordinate Designers and Software engineers efforts.
               </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/alert_component.rb" target="_blank"/>
             </div>
           </q-carousel-slide>
           <q-carousel-slide name="second" img-src="./buttons.png">
@@ -39,6 +40,7 @@
               <h5 class="hide md:block text-white">
 								Aha! Design System was designed and implemented in-house and among my contributions to the project were: provide ideas on which features were easier to implement and provide the most value, to write 100% of the code (Rails Engine) for initial versions of the tool, deploying the tool to staging environment and to educate other engineers on how to make the best use of it. 
               </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/buttons/button_component.rb" target="_blank"/>
             </div>
           </q-carousel-slide>
           <q-carousel-slide name="third" img-src="./seal.png">
@@ -47,6 +49,7 @@
               <h5 class="hide md:block text-white">
 								This tool leverage the fact we were doing Component-Driven-Development with a Open Source project (Ruby gem) called view_components
               </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/seal_component.rb" target="_blank"/>
             </div>
           </q-carousel-slide>
           <q-carousel-slide name="news" img-src="./news.png">
@@ -55,6 +58,7 @@
               <h5 class="hide md:block text-white">
 								All in all, this tool is an important part to a multipart solution to a very challenging and persistent issue we were dealing as a team: How to provide a consistent User Experience (UX) to end users while at the same time being flexible and ready to accomodate diverse researchers needs and while also keep developers productivity high?.  
               </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/news_component.rb" target="_blank"/>
             </div>
           </q-carousel-slide>
         </q-carousel>
@@ -63,20 +67,6 @@
   </div>
 </div>
 
-Links
------
-
-- [Aha: Alerts][1]
-- [Aha: Buttoms][2]
-- [Aha: Seal][3]
-- [Aha: News][4]
-- [View components gem][5]
-
-[1]: https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/alert_component.rb
-[2]: https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/buttons/button_component
-[3]: https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/seal_component
-[4]: https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/news_component
-[5]: https://github.com/ViewComponent/view_component
 <style>
   .custom-caption {
     text-align: center;

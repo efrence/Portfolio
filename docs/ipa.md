@@ -32,6 +32,7 @@
               <h5 class="hide md:block text-white">
                 Unalengua IPA Translator is the first modern phonetic (IPA) transcriber with prolonged reading features (minimalistic UI, dark mode) and read aloud capabilities (Text-to-Speech, speech tracking).
               </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Live demo" href="https://unalengua.com/ipa?ttsLocale=en-US&voiceId=Salli&ttsMode=sentence&text=Welcome+to+Unalengua+IPA+Translator" target="_blank"/>
             </div>
           </q-carousel-slide>
           <q-carousel-slide name="third" img-src="./dark.png">
@@ -50,6 +51,7 @@
               <h5 class="hide md:block text-white">
                 The app has been distributed as a Mobile (Google play and Apple stores), Desktop (Microsoft and Apple store), Chrome extension and Web (accesible directly via any browser).
               </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Go to store" href="https://play.google.com/store/apps/details?id=com.unalengua.ipattstranslator" target="_blank"/>
             </div>
           </q-carousel-slide>
           <q-carousel-slide name="reviews" img-src="./android2.png">
