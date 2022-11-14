@@ -1,5 +1,6 @@
 <script setup>
   import { ref } from 'vue';
+  import { withBase } from 'vitepress';
   const slide = ref('first');
 </script>
 
@@ -12,7 +13,7 @@
       <h4 class="sm:hide text-center mb-0 pb-0 mt-4"> Efren Carbajal </h4>
       <h6 class="hide sm:block mt-4"> Web Developer </h6>
       <h6 class="sm:hide text-center mt-4"> Web Developer </h6>
-      <a class="flex items-center no-underline hover:underline text-inherit text-sm md:text-base underline my-5" href="/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="mr-3 h-5 w-5 text-primary"><path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>Back to the main page</a>
+      <a class="flex items-center no-underline hover:underline text-inherit text-sm md:text-base underline my-5" :href="withBase('/')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="mr-3 h-5 w-5 text-primary"><path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>Back to the main page</a>
     </div>
   </div>
   <div class="row mx-auto">
