@@ -62,6 +62,34 @@
             </div>
           </q-carousel-slide>
         </q-carousel>
+            <div class="md:hide p-4" v-if="slide==='first'">
+              <div class="text-h2 text-center mt-4 ">Aha! (Design System)</div>
+              <h5 class="">
+                As part of my role as Senior Engineer in Eureka I proposed to build a Design System with the intention of coordinate Designers and Software engineers efforts.
+              </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/alert_component.rb" target="_blank"/>
+            </div>
+            <div class="md:hide p-4" v-if="slide==='second'">
+              <div class="text-h2 text-center mt-4 ">Aha! (Design System)</div>
+              <h5 class="">
+								Aha! Design System was designed and implemented in-house and among my contributions to the project were: provide ideas on which features were easier to implement and provide the most value, to write 100% of the code (Rails Engine) for initial versions of the tool, deploying the tool to staging environment and to educate other engineers on how to make the best use of it. 
+              </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/buttons/button_component.rb" target="_blank"/>
+            </div>
+            <div class="md:hide p-4" v-if="slide==='third'">
+              <div class="text-h2 text-center mt-4 ">Aha! (Design System)</div>
+              <h5 class="">
+								This tool leverage the fact we were doing Component-Driven-Development with a Open Source project (Ruby gem) called view_components
+              </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/seal_component.rb" target="_blank"/>
+            </div>
+            <div class="md:hide p-4" v-if="slide==='news'">
+              <div class="text-h2 text-center mt-4 ">Aha! (Design System)</div>
+              <h5 class="">
+								All in all, this tool is an important part to a multipart solution to a very challenging and persistent issue we were dealing as a team: How to provide a consistent User Experience (UX) to end users while at the same time being flexible and ready to accomodate diverse researchers needs and while also keep developers productivity high?.  
+              </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://mb-14388-aha-usability-bugs-eefc857.hehtech.io/aha/news_component.rb" target="_blank"/>
+            </div>
       </q-responsive>
     </div>
   </div>

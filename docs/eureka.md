@@ -53,6 +53,27 @@
             </div>
           </q-carousel-slide>
         </q-carousel>
+            <div class="md:hide p-4" v-if="slide==='first'">
+              <div class="text-h2 text-center mt-4 ">Congenital Heart Initiative</div>
+              <h5 class="">
+                As part of my role as Senior Engineer in Eureka I took ownership of anything related with frontend, which means coordinating with other Software engineers, Designers and Project manager for different projects.
+              </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://chdinitiative.eurekaplatform.org/" target="_blank"/>
+            </div>
+            <div class="md:hide p-4" v-if="slide==='second'">
+              <div class="text-h2 text-center mt-4">TOPAZ: Trial of Parkinkson's and Zoledronic Acid</div>
+              <h5 class="">
+               Also was responsible of designing, implementing and mantaining the mechanism/solution that allow us to have different themes per study, which proof to be a challenge before I joined the team. Also was a key figure behind a rearchitecting the frontend layer from MVC to a more Component-Driven-Development structure and flow. 
+              </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://topaz.eurekaplatform.org/" target="_blank"/>
+            </div>
+            <div class="md:hide p-4" v-if="slide==='third'">
+              <div class="text-h2 text-center mt-4">eNET: Neuroendocrine tumors</div>
+              <h5 class="">
+                All in all, I had a key role in reducing the customization phase time from 1-2 months to 1-2 weeks per study.
+              </h5>
+              <q-btn unelevated color="secondary" class="mb-4" label="Visit" href="https://enet.eurekaplatform.org/?locale=en" target="_blank"/>
+            </div>
       </q-responsive>
     </div>
   </div>
